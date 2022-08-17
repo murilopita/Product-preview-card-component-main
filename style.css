@@ -30,7 +30,7 @@ body{
 }
 
 main{
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@ main{
 }
 
 .card{
-    width: 500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: var(--bg-card);
@@ -48,9 +48,9 @@ main{
 }
 
 .card .card-image img{
-    width: 100%;
+    width: 300px;
     border-radius: 10px 0 0 10px;
-
+    
 }
 
 .card-content{
