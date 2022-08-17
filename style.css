@@ -175,4 +175,13 @@ main{
     .card-content{
         padding-right: 1rem;
     }
+
+    .price{
+        justify-content: center;
+    }
+
+    .product-type, .title, .description{
+        text-align: center;
+        padding: 0;
+    }
 }
