@@ -174,13 +174,18 @@ main{
 
     .card-content{
         padding: 0 1rem;
-        margin: 1rem 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
     }
 
     .price{
         justify-content: center;
     }
 
+    .product-type{
+        margin-top: 1rem;
+    }
     .product-type, .title, .description{
         text-align: center;
         padding: 0;
