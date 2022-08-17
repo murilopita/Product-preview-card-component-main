@@ -196,4 +196,8 @@ main{
         cursor: none;
         
     }
+
+    .btn .cart-icon{
+        display: flex;
+    }
 }
