@@ -30,7 +30,6 @@ body{
 }
 
 main{
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +37,8 @@ main{
 }
 
 .card{
-    width: 100%;
+    width: 600px;
+    height: auto;
     display: flex;
     justify-content: center;
     background-color: var(--bg-card);
@@ -46,11 +46,12 @@ main{
     box-shadow: 0.1875rem 0.25rem 0.875rem rgba(18, 19, 17, 0.438);
     
 }
-
-.card .card-image img{
-    width: 300px;
-    border-radius: 10px 0 0 10px;
     
+
+.card img{
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+
 }
 
 .card-content{
@@ -132,6 +133,10 @@ main{
     background-color: var(--color01);
     cursor: pointer;
 
+}
+
+.btn .cart-icon{
+    width: 20px;
 }
 
 .btn button:hover{
