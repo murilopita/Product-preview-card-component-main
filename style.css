@@ -53,8 +53,9 @@ main{
 
 .card img{
     width: 320px;
+    height: auto;
     border-radius: 10px 0 0 10px;
-
+    
 }
 
 .card-content{
