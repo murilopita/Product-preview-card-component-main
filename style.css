@@ -47,6 +47,9 @@ main{
     
 }
     
+.card .mobile{
+    display: none;
+}
 
 .card img{
     width: 320px;
@@ -143,3 +146,35 @@ main{
     background-color: hsl(157.1, 36%, 18%);
     
 }
+
+/*Media Querie Section*/
+
+@media (max-width: 380px){
+
+ 
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 749px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .card img{
+        display: none;
+    }
+
+    .card .mobile{
+       display: flex;
+       width: 320px;
+       border-radius: 10px 10px 0 0;
+        
+    }
+
+    .card-content{
+
+    }
+
+}
+    
